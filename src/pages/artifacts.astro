@@ -1,0 +1,60 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Artifacts" sideBarActiveItemID="artifacts">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Artifacts</div>
+  </div>
+
+  <HorizontalCard
+    title="Teaching Inventory Database"
+    img="/public/TeachingInventoryDatabase.jpg"
+    desc="The things I teach and some ways that I can teach them."
+    url="https://woolen-foxtail-010.notion.site/af3fe7a842664c7b972facefb9870a37?v=baf0e4b41b0e4d3f9b188e239ec964a8"
+    target ="_blank"
+  />
+
+  <HorizontalCard
+    title="Sample Band Handbooks"
+    img="/public/SampleHandbook.jpg"
+    desc="A handbook of policies, procedures, and events for a high school band program."
+    url="/public/Grandline_Wildcat_Band_Handbook.pdf"
+  />
+
+  <HorizontalCard
+    title="Literature Review"
+    img="/public/LiteratureReview.jpg"
+    desc="A collection of quality pieces from each grade level, and my impressions/rehearsal focuses for each."
+    url="/public/Listening_Lit_Review.pdf"
+
+  />
+  <HorizontalCard
+    title="Jazz Resources"
+    img="/Public/JazzResources.jpg"
+    desc="Though my time with the Lab Band at WMU was short, the experience has given me a lot of ideas for teaching this kind of ensemble, and this document has helped supplement my jazz pedagogy."
+    url="/public/WMU_Jazz_Presentation.pdf"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Marching Band Fundamentals Packet"
+    img="/public/MattawanBRASS23.jpg"
+    desc="An example of the musical material I go through with my marching band students."
+    url="/public/MattawanBRASS 2023 Packet.pdf"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Full Year Concert Program"
+    img="/public/ConcertProgram.jpg"
+    desc="A full years worth of band concerts, with each band playing 3 pieces each. This program is designed with the end goal of having students challenged through the entire year, yet never overwhelming them."
+    url="/public/Methods I Final .pdf" 
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="History of the Wind Ensmeble Timeline"
+    img="/public/Timeline.jpg"
+    desc="A comprehensive review of the evolution of the wind band from 1500-Present."
+    url="/public/Beeson. Wind Lit Timeline.xlsx - Sheet1.pdf"
+  />
+</BaseLayout>
